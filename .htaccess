@@ -1,0 +1,4 @@
+# Blokkeer directe toegang tot cache en gevoelige bestanden
+<FilesMatch "instagram-cache\.json$">
+    Require all denied
+</FilesMatch>
